@@ -1,0 +1,7 @@
+#!/bin/sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# give ESLint more headroom
+export NODE_OPTIONS="--max-old-space-size=4096"
+
+npx lint-staged

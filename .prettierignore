@@ -1,0 +1,15 @@
+dist
+
+# Next.js build output
+.next/
+out/
+
+# Node modules
+node_modules/
+
+# Environment files
+.env*
+!.env.example
+
+# Public files
+public/
